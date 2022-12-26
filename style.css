@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+}
+
+li, a, button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: aliceblue;
+    text-decoration: double;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    border: 1px solid white;
+}
+ul{
+    border: 1px dotted yellow;
+    display: grid;
+    column-gap: 50px;
+}
+a{
+    border: 1px dotted yellow;
+}
