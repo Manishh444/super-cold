@@ -24,6 +24,10 @@ ul{
     border: 1px dotted yellow;
     display: grid;
     column-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+li{
+    border: 1px solid green;
 }
 a{
     border: 1px dotted yellow;
