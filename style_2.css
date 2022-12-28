@@ -1,48 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+    /* background-color: #5e6379; */
 }
 
-li, a, button{
+li,
+a,
+button {
     font-family: "Sevillana", sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
 }
-img{
-    width: 70px;
-}
-header{
+
+
+
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #262a2c;
+    border: 1px solid #2dcaff;
 }
-
+img {
+    width: 70px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 10px;
+}
 .nav-links li {
     display: inline-block;
     padding: 20px;
 }
+
 .nav-links li a {
     transition: all 0.3s ease 0s;
 }
+
 .nav-links li a:hover {
     color: #0088a9;
 }
 
-button{
+button {
     padding: 9px 25px;
     background-color: rgba(0, 136, 139, 1);
-    border:2px solid greenyellow;
+    border: 2px solid greenyellow;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
-button:hover{
-        background-color: rgba(0, 136, 139, 0.8  );
+button:hover {
+    background-color: rgba(0, 136, 139, 0.8);
 }

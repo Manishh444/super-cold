@@ -11,15 +11,16 @@
         }
         .grid-container{
             /* box-sizing: border-box; */
+            border: 5px solid green ;
             background-color: #58595b;
             padding: 20px;
             display: grid;
-            height: 500px;
-            grid-template-columns: 200px 50px 250px; /* this line of code will create 3 column of equal width*/
+            /* height: 500px; */
+            grid-template-columns: 100px 100px 100px; /* this line of code will create 3 column of equal width*/
             /* grid-template-rows: auto auto auto auto; */
-            grid-column-gap:  12px;
+            grid-column-gap:  10px;
             row-gap:  10px;
-             justify-content: space-between ; /*this line of code is to aligh element HORIZONTALLY */
+             justify-content: center ; /*this line of code is to aligh element HORIZONTALLY */
             align-content: center;        /*this line is to adjust content horizontlly*/ 
         }
 
@@ -29,6 +30,13 @@
             border: 1px solid yellow;
             padding: 20px;
             text-align: center;
+        }
+
+        #grid-1{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            /* grid-row-start:1 ; */
+            grid-row-end:  4;
         }
 
     </style>
